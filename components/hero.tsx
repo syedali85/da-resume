@@ -14,8 +14,8 @@ export default function Hero() {
       <Image
         src="/logo/data.png" // Path to your image
         alt="Data Visualization" // Alt text for accessibility
-        layout="fill" // Makes the image fill the container
-        objectFit="cover" // Ensures the image covers the area
+        fill // Use fill for responsive images
+        style={{ objectFit: 'cover' }} // Use style prop for object fit
         className="object-cover" // Optional: add any additional classes
       />
     </div>
