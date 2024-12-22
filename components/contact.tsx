@@ -1,10 +1,7 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Github, Linkedin, Mail, Twitter } from 'lucide-react'
+import { Link , Mail } from 'lucide-react'
 
 export default function Contact() {
   return (
@@ -24,80 +21,20 @@ export default function Contact() {
                   className="flex items-center gap-2 text-gray-600 hover:text-primary"
                 >
                   <Mail className="h-5 w-5" />
-                  your.email@example.com
+                  alisyed0105@gmail.com
                 </a>
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://www.linkedin.com/in/mohammed-ali-syed-a4ba6614/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-gray-600 hover:text-primary"
                 >
-                  <Github className="h-5 w-5" />
-                  GitHub
-                </a>
-                <a
-                  href="https://linkedin.com/in/yourusername"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-gray-600 hover:text-primary"
-                >
-                  <Linkedin className="h-5 w-5" />
+                  <Link className="h-5 w-5" />
                   LinkedIn
-                </a>
-                <a
-                  href="https://twitter.com/yourusername"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-gray-600 hover:text-primary"
-                >
-                  <Twitter className="h-5 w-5" />
-                  Twitter
                 </a>
               </CardContent>
             </Card>
           </div>
-
-          <Card>
-            <CardHeader>
-              <CardTitle>Send a Message</CardTitle>
-              <CardDescription>
-                I&apos;ll get back to you as soon as possible
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <form className="space-y-4">
-                <div className="grid gap-4 sm:grid-cols-2">
-                  <div>
-                    <label htmlFor="name" className="mb-2 block text-sm font-medium">
-                      Name
-                    </label>
-                    <Input id="name" required />
-                  </div>
-                  <div>
-                    <label htmlFor="email" className="mb-2 block text-sm font-medium">
-                      Email
-                    </label>
-                    <Input id="email" type="email" required />
-                  </div>
-                </div>
-                <div>
-                  <label htmlFor="subject" className="mb-2 block text-sm font-medium">
-                    Subject
-                  </label>
-                  <Input id="subject" required />
-                </div>
-                <div>
-                  <label htmlFor="message" className="mb-2 block text-sm font-medium">
-                    Message
-                  </label>
-                  <Textarea id="message" rows={6} required />
-                </div>
-                <Button type="submit" className="w-full sm:w-auto">
-                  Send Message
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
         </div>
       </div>
     </section>

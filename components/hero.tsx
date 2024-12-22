@@ -5,7 +5,7 @@ export default function Hero() {
     <div className="relative h-screen min-h-[600px] w-full">
       <div className="absolute inset-0 bg-black/40" />
       <div className="relative z-10 flex h-full flex-col items-center justify-center text-white">
-        <p className="text-2xl font-light">Hello, Iam</p>
+        <p className="text-2xl font-light">Hello, I am</p>
         <h1 className="mt-4 text-6xl font-bold tracking-tight sm:text-7xl">
           Mohammed Ali Syed
         </h1>
