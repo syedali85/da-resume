@@ -5,6 +5,7 @@ import Skills from '@/components/skills'
 import Certifications from '@/components/certifications'
 import Accomplishments from '@/components/accomplishments'
 import ProfessionalSummary from '@/components/ProfessionalSummary'
+import Contact from '@/components/contact'
 
 export async function generateStaticParams() {
   return [
@@ -23,6 +24,7 @@ export default function Home() {
       <Skills />
       <Certifications />
       <Accomplishments />
+      <Contact />
     </main>
   )
 }
