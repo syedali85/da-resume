@@ -6,6 +6,13 @@ import Certifications from '@/components/certifications'
 import Accomplishments from '@/components/accomplishments'
 import ProfessionalSummary from '@/components/ProfessionalSummary'
 
+export async function generateStaticParams() {
+  return [
+    { params: { /* your params here */ } },
+    // Add more params as needed
+  ];
+}
+
 export default function Home() {
   return (
     <main>

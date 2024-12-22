@@ -1,4 +1,3 @@
-import ProfessionalSummary from './ProfessionalSummary';
 import TimelineEntry from './timeline-entry';
 
 export default function Journey() {
